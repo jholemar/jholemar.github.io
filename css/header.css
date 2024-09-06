@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&display=swap');
+
+.header-container_main {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 4px 44px 4px 10px;
+    height: 70px;
+    box-sizing: border-box;
+    color: rgb(40, 40, 40);
+    z-index: 99;
+}
+
+.header-logo a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    text-transform: uppercase;
+    font-family: "Cardo", serif;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#header-git {
+    height: 70px;
+    padding: 0;
+}
+
+.header-logo a:hover {
+    color: yellow;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.header-navagation {
+    display: block;
+}
+
+.header-toggle {
+    display: none;
+}
+
+.header-navagation-information {
+    padding-right: 0;
+}
+
+.header-navagation-information-arrow {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.header-navagation-information-arrow_elements {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.header-navagation-information-arrow_elements a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: raleway, sans-serif;
+    width: 10px;
+}
+
+.header-navagation-information-arrow_elements a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.header-navagation-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(104, 87, 202);
+    z-index: 999;
+    height: 110%;
+    width: 375px;
+    max-width: 500px;
+    animation-duration: 1s;
+    text-align: center;
+    background-color: #0d1f33;
+    margin-right: 0vw;
+}
+
+#primeiro {
+    padding-top: 100px;
+}
+
+.header-navagation-mobile a {
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    padding: 12px 0;
+    text-transform: uppercase;
+    color: #fff;
+    width: 200px;
+    line-height: 30px;
+    font-family: raleway, sans-serif;
+}
+
+.btn_icon_header {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 30px 0 0;
+}
+
+@media (max-width: 760px) {
+    .header-navagation {
+        display: none;
+    }
+
+    .btn_icon_header {
+        display: block;
+    }
+}
+
+@keyframes ShowSideBar {
+    from {
+        margin-right: -200vw;
+    }
+    to {
+        margin-right: 0vw;
+    }
+}
