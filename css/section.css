@@ -45,7 +45,8 @@
 }
 
 .post-categories {
-    padding-top: 80px;
+    margin-top: 25px;
+    padding: 20px;
 }
 
 .post-categories-text {
@@ -93,8 +94,8 @@
     }
 
     .post-categories {
-        padding-top: 60px;
-        padding: 60px 20%;
+        padding: 0;
+        margin-top: 100px;
     }
 
     .center-page-center-page {
