@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9;
+    color: #011105; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #005a05; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-top: 2px solid #2e7d32;
+}
+
+main img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    border: 4px solid #2e7d32;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.flex-item {
+    text-align: center;
+    flex: 1;
+    max-width: 48%;
+    box-sizing: border-box;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid #2e7d32;
+}
+
+footer {
+    background-color: #005a05;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.foto {
+    width: 25%;
+    border-radius: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 5px 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    nav ul li, footer ul li {
+        margin: 5px 10px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .flex-item img,
+    .flex-item video {
+        max-width: 80%;
+    }
+
+    video {
+        max-height: 250px;
+    }
+
+    main img {
+        width: 150px;
+    }
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+#estagio {
+    padding: 20px;
+    text-align: center;
+}
+
+#estagio h2 {
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+#estagio .flex-container {
+    gap: 20px;
+}
+
+#estagio .flex-item {
+    max-width: 22%;
+}
+
+#estagio .flex-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #estagio .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #estagio .flex-item {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+#Contato {
+    padding: 20px;
+    background-color: #f1f8e9;
+    border: 2px solid #1b5e20;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#Contato label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1b5e20;
+}
+
+#Contato input[type="text"],
+#Contato input[type="email"],
+#Contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1b5e20;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#Contato button {
+    background-color: #1b5e20;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#Contato button:hover {
+    background-color: #145a32;
+}
+
+#Contato table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#Contato td {
+    padding: 10px;
+}
+
+#Contato td[colspan="2"] {
+    text-align: center;
+}
+
+#AMIZADES img {
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.emoji-logo {
+    font-size: 80px;
+    background-color: #ffffff;
+    border: 4px solid #1b5e20;
+    border-radius: 16px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.emoji-logo:hover {
+    transform: scale(1.05);
+}
+
