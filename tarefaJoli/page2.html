@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capitu – Enigma da Literatura</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-container_main">
+      <div class="header-logo">
+        <a href="index.html">Dom <br> Casmurro</a>
+      </div>
+      <nav class="header-navagation" id="header-navagation1">
+        <div class="header-navagation-information">
+          <ul class="header-navagation-information-arrow">
+            <li class="header-navagation-information-arrow_elements"><a href="index.html">Início</a></li>
+            <li class="header-navagation-information-arrow_elements"><a href="page.html">Autor</a></li>
+            <li class="header-navagation-information-arrow_elements"><a href="page2.html">Capitu</a></li>
+            <li class="header-navagation-information-arrow_elements"><a href="page3.html">Análise</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="btn_icon_header">
+        <button onclick="toggleSidebar()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="header-navagation-mobile" id="header-mobile">
+    <button onclick="toggleSidebar()" id="open-sidebar" class="btn_icon_header">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+      </svg>
+    </button>
+    <a href="index.html" class="active" id="primeiro">Início</a>
+    <a href="page.html" class="active">Autor</a>
+    <a href="page2.html" class="active">Capitu</a>
+    <a href="page3.html" class="active">Análise</a>
+  </div>
+
+  <section id="content-main" tabindex="0" onclick="closeSideBar()">
+    <div class="section-background-image">
+      <img src="/tarefaJoli/image/Dom Casmurro-600x800.jpg" alt="Capitu personagem literária" class="attachment-post-thumbnail" />
+    </div>
+
+    <div class="center-page-center-page">
+      <div class="insider-tittle">
+        <h1>Capitu: Olhos de Ressaca e o Mistério da Traição</h1>
+      </div>
+      <div class="insider-container">
+        <div class="sub-tittle">
+          <p>Por: Jholemar Adonai · Literatura Brasileira</p>
+        </div>
+        <div class="cat">
+          <ul class="post-categories">
+            <li><a class="post-categories-text" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="new-page-nav" id="div-isolate">
+    <div class="center-page-center-page-new-page-nav">
+      <ul class="post-categories-new-page-nav">
+        <li><a class="post-categories-new-page-nav-a" href="index.html">Home</a></li>
+        <li><a class="post-categories-new-page-nav-a">> Literatura</a></li>
+        <li><a class="post-categories-new-page-nav-a">> Capitu</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="news-page-single" id="conteudo" tabindex="0" onclick="closeSideBar()">
+    <div class="page-center-page-center-small">
+      <div class="news-page-single-single-container">
+        <article class="news-page-single__itens">
+          <div class="news-page-single__content">
+            <h2 class="wp-block-heading">A Personagem</h2>
+            <p class="content-paragrapf">Capitu é uma das figuras mais intrigantes da literatura brasileira. Descrita por Bentinho como dona de "olhos de cigana oblíqua e dissimulada", sua personalidade é envolta em ambiguidade, charme e inteligência.</p>
+
+            <h2 class="wp-block-heading">Olhos de Ressaca</h2>
+            <p class="content-paragrapf">A famosa metáfora dos "olhos de ressaca" simboliza o poder de atração e o mistério de Capitu. Seus olhos são constantemente mencionados como fonte de fascínio, confusão e dúvida por parte de Bentinho. É por meio deles que Machado de Assis deixa pistas sobre a possível traição — ou talvez apenas sobre a obsessão e ciúme do narrador.</p>
+
+            <h2 class="wp-block-heading">Capitu traiu ou não traiu?</h2>
+            <p class="content-paragrapf">A grande questão que persegue leitores há mais de um século. Nunca há uma confirmação explícita da traição, mas a narrativa em primeira pessoa de Bentinho é carregada de subjetividade. O ciúme e paranoia do personagem tornam difícil saber o que realmente aconteceu entre Capitu e Escobar.</p>
+
+            <h2 class="wp-block-heading">Capitu na crítica literária</h2>
+            <p class="content-paragrapf">Capitu é considerada um marco da representação feminina na literatura. Sua independência, inteligência e poder de sedução contrastam com as personagens femininas submissas da época. Alguns críticos apontam que ela representa o avanço do realismo sobre o romantismo no Brasil.</p>
+
+            <h2 class="wp-block-heading">Capitu e o feminismo</h2>
+            <p class="content-paragrapf">Hoje, Capitu é vista como símbolo de uma mulher à frente de seu tempo: com autonomia, opinião própria e coragem. O fato de sua narrativa ter sido dominada por um homem ciumento levanta debates sobre silenciamento feminino e opressão de gênero — temas relevantes mesmo mais de 100 anos após a publicação.</p>
+
+            <figure class="wp-block-video-youtube">
+                <iframe width="100%" height="800px" src="https://www.youtube.com/embed/hN7Hiwt6mlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </figure>
+
+            <h2 class="wp-block-heading">Conclusão</h2>
+            <p class="content-paragrapf">Capitu segue sendo uma das personagens mais complexas da literatura brasileira. Sua história nos desafia a questionar o narrador, a refletir sobre os papéis de gênero e sobre como julgamos o outro — especialmente as mulheres. Talvez o verdadeiro mistério de Capitu não esteja em saber se ela traiu, mas em descobrir por que tantos ainda querem provar que sim.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let header = document.getElementById("header-navagation1");
+    let navigationHeader = document.getElementById("header-mobile");
+    let content = document.getElementById("conteudo");
+    let showSideBar = false;
+    let content_main = document.getElementById("content-main");
+    let div2 = document.getElementById("div-isolate");
+
+    function toggleSidebar() {
+      showSideBar = !showSideBar;
+      if (showSideBar) {
+        navigationHeader.style.display = "block";
+        navigationHeader.style.marginRight = "0vw";
+        navigationHeader.style.position = "fixed";
+        navigationHeader.style.animationName = "ShowSideBar";
+        content.style.filter = "blur(2px)";
+        header.style.filter = "blur(2px)";
+        content_main.style.filter = "blur(2px)";
+        div2.style.filter = "blur(2px)";
+      } else {
+        navigationHeader.style.display = "none";
+        navigationHeader.style.marginRight = "-200vw";
+        content.style.filter = "blur(0px)";
+        header.style.filter = "blur(0px)";
+        content_main.style.filter = "blur(0px)";
+        div2.style.filter = "blur(0px)";
+      }
+    }
+
+    function closeSideBar() {
+      if (showSideBar) {
+        toggleSidebar();
+      }
+    }
+  </script>
+
+  <footer style="background-color: #1a1a1a; color: white; padding: 40px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <p style="font-size: 18px; margin-bottom: 10px;">&copy; 2025 Dom Casmurro. Todos os direitos reservados.</p>
+      <p style="margin-bottom: 10px;">Desenvolvido por <strong>Jholemar Adonai</strong> | Técnico em Informática</p>
+      <p style="margin-bottom: 10px;"><a href="mailto:adonaisousa52@gmail.com" style="color: #00bfff;">adonaisousa52@gmail.com</a></p>
+      <div style="margin-top: 20px;">
+        <a href="#" style="margin: 0 10px; color: white;">Política de Privacidade</a>
+        <a href="#" style="margin: 0 10px; color: white;">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
